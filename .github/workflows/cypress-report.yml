@@ -4,6 +4,7 @@
 
 name: Generate Cypress Report
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'master'
